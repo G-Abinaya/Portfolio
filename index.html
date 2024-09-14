@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal  Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e7393a9ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">Portfolio</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </nav>
+        <div class="header-text">
+           <h1>Hii,I'm <span>Abinaya G</span> </h1> 
+           <p>Final-year student passionate about <br> development, specializing in creating responsive<br> and user-friendly web interfaces. </p>
+
+        </div>
+        
+        </div>
+    </div>
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image2.jpg">
+                </div>
+                <div  class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Abinaya, currently in my final year of the Computer Science and Engineering. My primary interest lies in front-end development, where I enjoy creating intuitive and visually appealing user interfaces. I am committed to continuous learning and staying updated with the latest technologies and trends in the field. My goal is to apply my skills and knowledge to develop innovative solutions and enhance user experiences. I am enthusiastic about collaborating with like-minded professionals and contributing to impactful projects.
+
+
+
+
+
+
+                    </p>
+                  
+                    
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML/CSS</h2>
+                    <p>I developed my skills in HTML and CSS to proficiently structure and style web pages. HTML allows me to create organized, semantic content, while CSS enables me to design visually appealing and responsive layouts. Together, these technologies help me build well-crafted websites with both solid structure and attractive presentation. Mastery of HTML and CSS forms the foundation of my web development capabilities.</p>
+                <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Spring</h2>
+                    <p>Proficient in Dependency Injection (DI) and Inversion of Control (IoC), utilizing Spring to achieve loose coupling and improved testability by delegating object creation and management to the Spring container. Skilled in applying DI through constructor, setter, and field injection methods for flexible and modular application development. This approach improves modularity, testability, and flexibility by decoupling the components of an application.</p>
+                <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>I developed my skills in Java to create robust and efficient software applications. Java's versatility and platform independence allow me to build a wide range of applications, from web and mobile apps to large-scale enterprise systems. With a strong focus on object-oriented programming principles, I can design modular, reusable code that is easy to maintain and extend. Mastery of Java and Spring enhances my ability to develop reliable and scalable software solutions.</p>
+                <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------- -->
+<div id="project">
+    <div class="container">
+        <h1 class="subtitle">My project</h1>
+        <div class="worklist"> 
+            <div class="work">
+                <img src="login.png">
+                <div class="layer">
+                    <h3>Login page</h3>
+                    <p>A login page using Java, JSP, and Servlets that authenticates users by capturing their credentials through a form in a JSP page</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="cart.png">
+                <div class="layer">
+                    <h3>Shopping Cart</h3>
+                    <p>It provides user interface for adding, viewing, and removing items in the cart.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="project1.png">
+                <div class="layer">
+                    <h3>Spring</h3>
+                    <p> leverage features such as dependency injection, aspect-oriented programming, and data access abstraction.   </p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------------------------------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+<div class="row">
+    <div class="contactleft">
+<h1 class="subtitle">Contact Me</h1>
+
+<p><i class="fa-solid fa-paper-plane"></i>ganesanabinaya240@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i>7708800184</p>
+<div class="socialicons">
+    <a href="https://www.linkedin.com/in/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/G-Abinaya"><i class="fa-brands fa-github"></i></a>
+    <a href="tel:7708800184"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="mailto:ganesanabinaya240@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+</div>
+    </div>
+    <div class="contactright">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+    
+    
+</div>
+    </div>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+        
+    }
+</script>
+<form name="submit-to-google-sheet">
+    <!-- <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button> -->
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbweL5d0tnq_PNLsxx4X9GQR_ZsZhdp-0Ji5whMClj3l7iVt6FE-7LX90IwnjYSaWokcSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
